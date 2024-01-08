@@ -1,0 +1,3 @@
+This is a test Java program that uses a Client and a Server to execute a multi-threaded sort. The client side creates a list of 100,000,000 random numbers that is then sorted between the client and the server. The server side will then print out how long the sort took in nanoseconds.
+
+Each program must be run as seperate instances and the port number must be the same in order to connect to each other. The server must be run first. A message will print on both the server and the client to signify the connection.
